@@ -11,13 +11,10 @@ team_members:
   email: "[madhulikakulkarni7@gmail.com](mailto:madhulikakulkarni7@gmail.com)"
   role: "ML Engineer"
 
-github_repo: "https://github.com/MadhulikaKulkarni/YOUR_REPO_NAME"
+github_repo: "https://github.com/MadhulikaKulkarni/Redrob_Hackathon"
 
-sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
+sandbox_link: "https://madhulikakulkarni-redrob-hackathon-app-v4airm.streamlit.app/"
 
-# If you haven't deployed yet, temporarily put:
-
-# "TO_BE_ADDED"
 
 reproduce_command: "python src/rank.py"
 
