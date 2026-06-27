@@ -6,3 +6,7 @@ outputs/
 *.pyc
 *.pyo
 *.pyd
+
+data/candidates.jsonl
+data/candidates.jsonl.gz
+*.npy
