@@ -1,0 +1,63 @@
+team_name: "RankForge AI"
+
+primary_contact:
+name: "Madhulika Kulkarni"
+email: "[madhulikakulkarni7@gmail.com](mailto:madhulikakulkarni7@gmail.com)"
+phone: "+91-8767515915"
+
+team_members:
+
+* name: "Madhulika Kulkarni"
+  email: "[madhulikakulkarni7@gmail.com](mailto:madhulikakulkarni7@gmail.com)"
+  role: "ML Engineer"
+
+github_repo: "https://github.com/MadhulikaKulkarni/YOUR_REPO_NAME"
+
+sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
+
+# If you haven't deployed yet, temporarily put:
+
+# "TO_BE_ADDED"
+
+reproduce_command: "python src/rank.py"
+
+compute:
+platform: "Windows Laptop"
+cpu_cores: 8
+ram_gb: 16
+python_version: "3.10"
+os: "Windows 11"
+uses_gpu_for_inference: false
+has_network_during_ranking: false
+pre_computation_required: true
+pre_computation_time_minutes: 20
+
+ai_tools_used:
+
+* "ChatGPT"
+
+ai_usage_summary: |
+Used ChatGPT for architectural discussion, debugging,
+code explanations, and project guidance. All ranking
+logic, testing, and final decisions were implemented
+and validated manually. No candidate data was sent to
+external APIs during ranking.
+
+methodology_summary: |
+Built a hybrid candidate ranking system that combines
+semantic embeddings, feature engineering, career
+analysis, behavioral signals, and honeypot detection.
+Candidate and job description embeddings are generated
+using sentence-transformers/all-MiniLM-L6-v2 and ranked
+using a weighted scoring framework that incorporates
+semantic similarity, title priors, experience, career
+evidence, and recruiter behavior signals. The system
+produces explainable rankings and was optimized to run
+fully offline on CPU.
+
+declarations:
+read_submission_spec: true
+code_is_original_work: true
+no_collusion: true
+honeypot_check_done: true
+reproduction_tested: true

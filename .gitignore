@@ -1,0 +1,8 @@
+venv/
+**pycache**/
+.ipynb_checkpoints/
+candidate_embeddings.npy
+outputs/
+*.pyc
+*.pyo
+*.pyd
